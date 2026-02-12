@@ -25,3 +25,4 @@ def test_login_application(page: Page, user_credentials):
     # 3. Verify it is loging by checking the title
     # Added a timeout of 10 seconds to wait for the title to change
     login_page.verify_successful_login(timeout=10000)
+    print("Login Successful")
