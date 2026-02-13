@@ -32,7 +32,7 @@ def test_coreLocators(page:Page):
     print(page.title())
     page.get_by_label("Username:").fill("rahulshettyacademy")
     print("Provided user name by getting the field using label")
-    page.get_by_label("Password:").fill("learning")
+    page.get_by_label("Password:").fill("Learning@830$3mK2")
     print("Provided password by getting the field using label")
     page.get_by_role("combobox").select_option("teach")
     print("Selected combobox option by getting the field using role and select option")
